@@ -22,7 +22,7 @@ syr2[7]=39;
 for (var i=0; i <syr.length; i++) {
 		var sumayresta=[2]
 	sumayresta[0]=syr[i]+syr2[i];
-	sumayresta[1]=syr[i]-syr2[i];
+	sumayresta[1]=Math.abs(syr[i]-syr2[i]);
 	document.write("<br> -Este es el resultado de la suma: " + sumayresta[0] + "<br>")
 	document.write("-Este es el resultado de la resta: " + sumayresta[1] + "<br>")
 	document.write("-Este es el resultado total: " + sumayresta[1]+sumayresta[0]+ "<br>")
